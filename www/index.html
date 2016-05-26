@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+	<ion-side-menus>
+		<ion-side-menu-content>
+		  <ion-header-bar class="bar-dark">
+			<h1 class="title">FirstPage</h1>
+		  </ion-header-bar>
+		</ion-side-menu-content>
+		<ion-side-menu side="left">
+		  <ion-header-bar class="bar-dark">
+			<h1 class="title">Menu</h1>
+		  </ion-header-bar>
+		  <ion-content>
+			<button onclick="window.location.href='camera.html'">Camera</button>
+			<button onclick="window.location.href='contact.html'">Contact</button>
+		  </ion-content>
+		</ion-side-menu>
+	  </ion-side-menus>
+	<div class="bar bar-footer  bar-balanced">
+		<button class="button button-clear">Back</button>
+		<div class="title">Footer</div>
+	</div>
+  </body>
+</html>
